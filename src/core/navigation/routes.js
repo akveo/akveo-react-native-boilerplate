@@ -1,6 +1,6 @@
 // @flow
 import { PeopleContainer } from '../../page/people/people.container';
-import { PersonDetailsComponent } from '../../page/person-details/person-details.component';
+import { PersonDetailsComponent } from '../../page/personDetails/personDetails.component';
 
 export const route = {
   People: 'People',

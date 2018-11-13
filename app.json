@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "akveo-react-native-boilerplate",
+    "description": "Sample app containing boilerplate sources for your next react-native app",
+    "slug": "akveo-react-native-boilerplate",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "version": "0.0.1",
+    "orientation": "portrait"
+  }
+}

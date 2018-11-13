@@ -4,5 +4,12 @@ module.exports = function (api) {
     presets: [
       'babel-preset-expo',
     ],
+    env: {
+      development: {
+        plugins: [
+          '@babel/transform-react-jsx-source',
+        ]
+      }
+    }
   };
 };

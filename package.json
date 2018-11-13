@@ -3,7 +3,9 @@
   "main": "./node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "start": "expo start"
+    "start": "expo start",
+    "build": "tsc",
+    "clean": "rimraf ./dist/"
   },
   "dependencies": {
     "expo": "31.0.5",
@@ -11,6 +13,11 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz"
   },
   "devDependencies": {
-    "babel-preset-expo": "5.0.0"
+    "@types/react": "16.7.3",
+    "@types/react-native": "0.57.8",
+    "babel-preset-expo": "5.0.0",
+    "react-native-typescript-transformer": "1.2.10",
+    "rimraf": "2.6.2",
+    "typescript": "3.1.6"
   }
 }

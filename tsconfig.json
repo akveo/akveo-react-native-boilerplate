@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/tsc-out/",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

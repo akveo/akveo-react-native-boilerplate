@@ -6,7 +6,7 @@
     "start": "expo start",
     "clean": "rimraf ./dist/",
     "lint": "tslint ./src/**/*.ts{,x}",
-    "test": "jest --no-cache"
+    "test": "jest"
   },
   "dependencies": {
     "expo": "31.0.5",
